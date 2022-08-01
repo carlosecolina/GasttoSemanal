@@ -134,6 +134,7 @@ class UI{
             console.log('validando la condicion de 25 ')
         }else{
             restanteDiv.classList.remove('alert-danger', 'alert-warning');
+            restanteDiv.classList.add('alert-success');
         }
 
 
